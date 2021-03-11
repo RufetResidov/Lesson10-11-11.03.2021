@@ -1,0 +1,714 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    position: fixed;
+    width:100% ;
+    .all{
+        .left{
+            img{
+                width: 70%;
+            }
+        }
+        .right{
+            padding: 1.5rem 0;
+            text-align: end;
+            span{
+                font-family: Poppins, sans-serif;
+                font-size: 18px;
+                color: #fff;
+                margin-left:40px ;
+                font-weight: 500;
+            }
+            i{
+                font-size: 20 px;
+                color: #fff;
+                margin-left:20px ;
+            }
+        }
+    }
+}
+#home{
+    padding: 11rem 0;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://arredo.qodeinteractive.com/wp-content/uploads/2018/06/main-home-slide-2.jpg);
+    .home-text{
+        text-align:center ;
+        h1{
+            font-family: Poppins - 500;
+            color: #fff;
+            font-size: 75px;
+            margin-bottom: 30px;
+        }
+        p{
+            font-family: Poppins - 500;
+            color: #fff;
+            font-size: 20px;
+            margin-bottom: 40px;
+            line-height: 28px;
+        }
+        .box{
+            align-items: center;
+            a{  
+                font-size: 18;
+                color: #ffffff;
+                border-color: #ffffff;
+                text-decoration: none;
+                border: 1px solid #fff;
+                font-weight: 500;
+                padding: 10px 21px 15px 26px;
+                transition: .4s;
+                &:hover{
+                    background-color:  #282828;
+                    border: 1px solid #282828;
+                }
+            }
+            i{
+                font-size: 15px;
+                margin-left: 10px;
+            }
+        }
+        .hrall{
+            margin-top: 7rem;
+            justify-content: center;
+            display: flex;
+            hr{
+                margin: 0 10px;
+                border: 1px solid #fff;
+                background-color: #fff;
+                height: 1px;
+                width: 30px;
+                &:hover{
+                    border: 2px solid #fff;
+                    background-color: #fff;
+                    height: 3px;  
+                }
+                 
+             }
+        }
+    }
+}
+#phone-header{
+    display: none;
+    padding: 20px 0;
+    .right{
+        text-align: center;
+    }
+    img{
+        width: 30%;
+    }
+}
+@media (max-width:576px){
+    #phone-header{
+        display: block;
+    }
+    #header{
+        display: none;
+    }
+    #home{
+        .home-text{
+            h1{
+                font-size: 45px;
+            }
+        }
+    }
+}
+#week{
+    margin: 9rem 0;
+    .week-text{
+        h2{
+            font-family: Poppins, sans-serif;
+            font-weight: 500;
+            font-size: 35px;
+            color: #282828;
+        }
+        p{
+            margin-top: 20px;
+            font-family: Poppins, sans-serif;
+            font-weight: 300;
+            font-size: 17px;
+            color: #737373;
+        }
+    }
+    .all{
+        margin-top: 80px;
+        .box{
+            &:hover{
+                .top{
+                    a{
+                        left: -30%;
+                        &:hover{
+                            left: 0%;
+                        }
+                    }
+                }
+            }
+            .top{
+                overflow: hidden;
+                position: relative;
+                img{
+                    transition: 1.2s;
+                }
+                &:hover{
+                    img{
+                        transform: scale(1.1);
+                    }
+                }
+                span{
+                    z-index: 1;
+                    position: absolute;
+                    top: 20px;
+                    left: 20px;
+                    letter-spacing: 3px;
+                    font-weight: bold;
+                }
+                a{  
+                    position: absolute;
+                    text-decoration: none;
+                    padding: 10px 25px;
+                    background-color: #282828;
+                    color: #fff;
+                    z-index: 2;
+                    left: -50%;
+                    bottom: 10%;
+                    transition: .4s;
+                    i{
+                        margin-left: 20px;
+                    }
+                }
+            }
+            .bottom{
+                text-align: center;
+                padding: 20px 0;
+                a{
+                    text-decoration: none;
+                    color: #282828;
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+                p{
+                    color: #282828;
+                    font-size: 15px; 
+                }
+                
+            }
+        }
+    }
+}
+#collection{
+    padding: 12rem 0;
+    background-image: url(https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h1-parallax-img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    .collection-text{
+        text-align: center;
+        h2{
+            font-family: Poppins - 500;
+            color: #fff;
+            font-size: 45px;
+            margin-bottom: 30px;
+        }
+        p{
+            font-family: Poppins - 500;
+            color: #fff;
+            font-size: 20px;
+            margin-bottom: 40px;
+            line-height: 28px;
+        }
+        .box{
+            align-items: center;
+            a{  
+                font-size: 18;
+                color: #ffffff;
+                border-color: #ffffff;
+                text-decoration: none;
+                border: 1px solid #fff;
+                font-weight: 500;
+                padding: 10px 21px 17px 26px;
+                transition: .4s;
+                &:hover{
+                    background-color:  #282828;
+                    border: 1px solid #282828;
+                }
+            }
+            i{
+                font-size: 15px;
+                margin-left: 10px;
+            }
+        }
+        
+    }
+}
+#collection1{
+    background-image: url(https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h1-parallax-img-2.jpg);
+    padding: 12rem 0;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    a{
+        i{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 30px;
+            color: #fff;
+            border-radius: 100%;
+            border: 1px solid #939393;
+            background-color: #939393;
+            padding: 18px 20px;
+            transition: .4s;
+            &:hover{
+                background-color: #282828;
+                border: 1px solid #282828;
+            }
+        }
+    }
+}
+#animation{
+     padding:14rem 0;
+    .all{
+        align-items: center;
+        .left{
+            text-align: center;
+            h2{
+                font-family: Poppins - 500;
+                color: #282828;
+                font-size: 75px;
+                margin-bottom: 30px;
+            }
+            p{
+                font-family: Poppins - 500;
+                color: #737373;
+                font-size: 20px;
+                margin-bottom: 40px;
+                line-height: 28px;
+            } 
+            a{  
+                font-size: 18;
+                color: #282828;
+                border-color: transparent;
+                text-decoration: none;
+                border: 1px solid #282828;
+                font-weight: 500;
+                padding: 10px 21px 15px 26px;
+                transition: .4s;
+                &:hover{
+                    color: #fff;
+                    background-color:  #282828;
+                    border: 1px solid #282828;
+                }
+            }
+        }
+        .right{
+            position: relative;
+            .img1{
+                position: absolute;
+           
+                animation: photo1 5s linear infinite;
+            }
+            .img2{
+                position: absolute;
+                top: 13rem;
+                width: 35%;
+                right: -3rem;
+                animation: photo2 5s linear infinite;
+            }
+            @keyframes photo1 {
+                0%{
+                    margin-top: -15rem;
+                }
+                50%{
+                    margin-top: -17rem;
+                }
+                100%{
+                    margin-top: -15rem;
+                }
+                
+            }
+            @keyframes photo2 {
+                0%{
+                    margin-top: 4rem;
+                }
+                50%{
+                    margin-top: 5rem;
+                }
+                100%{
+                    margin-top: 4rem;
+                }
+                
+            }
+        }
+    }
+}
+#animation2{
+    padding:14rem;
+   .all{
+       align-items: center;
+       .left{
+           margin-left: 2rem;
+           text-align: center;
+           h2{
+               font-family: Poppins - 500;
+               color: #282828;
+               font-size: 75px;
+               margin-bottom: 30px;
+           }
+           p{
+               font-family: Poppins - 500;
+               color: #737373;
+               font-size: 20px;
+               margin-bottom: 40px;
+               line-height: 28px;
+           } 
+           a{  
+               font-size: 18;
+               color: #282828;
+               border-color: transparent;
+               text-decoration: none;
+               border: 1px solid #282828;
+               font-weight: 500;
+               padding: 10px 21px 15px 26px;
+               transition: .4s;
+               &:hover{
+                   color: #fff;
+                   background-color:  #282828;
+                   border: 1px solid #282828;
+               }
+           }
+       }
+       .right{
+           position: relative;
+           .img3{
+            position: absolute;
+            width: 90%;
+            animation: photo3 5s linear infinite;
+            margin-top: -16rem;
+            margin-left: -6rem;
+           }
+           .img4{
+               width: 65%;
+               position: absolute;
+               margin-left: 10rem;
+               margin-top: 1rem;
+               animation: photo4 5s linear infinite;
+           }
+           @keyframes photo3 {
+            0%{
+                margin-top: -14rem;
+            }
+            50%{
+                margin-top: -16rem;
+            }
+            100%{
+                margin-top: -14rem;
+            }
+            
+            }
+           @keyframes photo4{
+               0%{
+                margin-top: 1rem;
+               }
+               50%{
+                margin-top: 3rem;
+               }
+               100%{
+                margin-top: 1rem;
+               }
+           }
+               
+               
+           
+       }
+   }
+}
+#animation3{
+    padding:14rem;
+    overflow: hidden;
+   .all{
+       align-items: center;
+       .left{
+           text-align: center;
+           h2{
+               font-family: Poppins - 500;
+               color: #282828;
+               font-size: 75px;
+               margin-bottom: 30px;
+           }
+           p{
+               font-family: Poppins - 500;
+               color: #737373;
+               font-size: 20px;
+               margin-bottom: 40px;
+               line-height: 28px;
+           } 
+           a{  
+               font-size: 18;
+               color: #282828;
+               border-color: transparent;
+               text-decoration: none;
+               border: 1px solid #282828;
+               font-weight: 500;
+               padding: 10px 21px 15px 26px;
+               transition: .4s;
+               &:hover{
+                   color: #fff;
+                   background-color:  #282828;
+                   border: 1px solid #282828;
+               }
+           }
+       }
+       .right{
+           position: relative;
+           .img1{
+               position: absolute;
+               margin-left: 20rem;
+               margin-top: -16rem;
+               animation: photo1 5s linear infinite;
+           }
+           .img2{
+               width: 100%;
+               position: absolute;
+               margin-left: 0;
+               margin-top: -8rem;
+               animation: photo2 5s linear infinite;
+           }
+           @keyframes photo1 {
+            0%{
+                margin-top: -15rem;
+            }
+            50%{
+                margin-top: -17rem;
+            }
+            100%{
+                margin-top: -15rem;
+            }
+            
+        }
+           @keyframes photo2 {
+               0%{
+                margin-top: -9rem  
+               }
+               50%{
+                margin-top: -7rem
+               }
+               100%{
+                margin-top: -9rem
+               }
+               
+           }
+       }
+   }
+}
+#order{
+    margin-top: 160px;
+    background-color: #ECF2F8;
+    padding: 4.5rem 0;
+    .order-text{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        h2{
+            color: #282828;
+            font-weight: 500;
+            font-size: 30px;
+        }
+        a{  
+            font-size: 18;
+            color: #282828;
+            border-color: #ffffff;
+            text-decoration: none;
+            border: 1px solid #282828;
+            font-weight: 500;
+            padding: 10px 21px 17px 26px;
+            transition: .4s;
+            &:hover{
+                background-color:  #282828;
+                border: 1px solid #282828;
+                color: #ffffff;
+            }
+        }
+        i{
+            font-size: 15px;
+            margin-left: 10px;
+        }
+    
+    }
+}
+#information{
+    padding: 6rem 0;
+   .box{
+       &:hover{
+           i,a{
+               color: #939393;
+           }
+       }
+       align-items: center;
+       i{
+            font-size: 30px;
+            color: #282828;
+            transition: .4s;
+       }
+       a{
+           margin-left: 20px;
+           text-decoration: none;
+           color: #282828;
+           font-size: 23px;
+           font-weight: 300;
+           transition: .4s;
+       }
+    }
+    
+}
+#gallery{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    .all{
+        justify-content: space-evenly;
+        .box{
+            .top{
+                &:hover{
+                     img{
+                         transform: scale(1.1);
+                        }
+                }
+                overflow: hidden;
+                img{
+                    transition: 1.6s;
+                }
+            }
+        }
+        .text-center{
+            margin-top: 40px;
+            a{
+                font-size: 16px;
+                color: #282828;
+                text-decoration: none;
+                transition: .4s;
+                &:hover{
+                    color: #b4b4b4;
+                }
+            }
+            span{
+                font-size: 16px;
+                margin: 0 10px;
+            }
+            p{
+                font-size: 20px;
+                color: #282828;
+                transition: .4s;
+                &:hover{
+                    color: #939393;
+                }
+            }
+           .mix{
+               &:hover{
+                   span{
+                       display: none;
+                   }
+                   a{
+                    border-bottom: 1px solid transparent;
+                   }
+               }
+               span{
+                   transition: .4s;
+               }
+               a{
+                   text-decoration: none;
+                   border-bottom: 1px solid #282828;
+               }
+           } 
+        }
+    }
+}
+#about{
+    padding: 5rem 0;
+    margin-bottom: 40px;
+    background-color: #ECF2F8;
+    .about-text{
+        position: relative;
+        h1{
+            display: inline;
+            font-size: 96px;
+            color: #282828;
+        }
+        p{
+            font-size: 18px;
+            color: #737373;
+        }
+        h3{
+            font-size: 20px;
+            color: #282828;
+        }
+        h4{
+            font-size: 13px;
+            color: #282828;
+        }
+        .i1{
+            i{
+                font-size: 25px;
+                position: absolute;
+                top: 8.5rem;
+                left: 2rem;
+            }
+        }
+        .i2{
+            i{
+                font-size: 25px;
+                position: absolute;
+                top: 8.5rem;
+                right: 2rem;
+            }
+        }
+    }
+}
+#brend{
+    padding: 3rem 0;
+    .all{
+        .box{
+            overflow: hidden;
+            &:hover{
+                img{
+                    transform: scale(1.1);
+                }
+            }
+          img{
+              transition: .4s;
+          }
+        }
+    }
+}
+#footer{
+    margin-top: 2rem;
+    padding: 2rem 0;
+    background-color: #282828;
+    .all{
+        display: flex;
+        justify-content: space-between;
+        .left{
+            margin-left: 30px;
+            a{
+                font-family: Poppins, sans-serif;
+                font-size: 15px;
+                color: #fff;
+                margin-left:30px ;
+                font-weight: bold;
+                text-decoration: none;
+            }
+        }
+        .right{
+            span,a{
+                font-family: Poppins, sans-serif;
+                font-weight: 300;
+                color: #bdbdbd;
+                font-size: 15px;
+                text-decoration: none;
+            }
+        }
+    }
+}

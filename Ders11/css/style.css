@@ -1,0 +1,888 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+}
+
+#header .all .left img {
+  width: 70%;
+}
+
+#header .all .right {
+  padding: 1.5rem 0;
+  text-align: end;
+}
+
+#header .all .right span {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  margin-left: 40px;
+  font-weight: 500;
+}
+
+#header .all .right i {
+  font-size: 20 px;
+  color: #fff;
+  margin-left: 20px;
+}
+
+#home {
+  padding: 11rem 0;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://arredo.qodeinteractive.com/wp-content/uploads/2018/06/main-home-slide-2.jpg);
+}
+
+#home .home-text {
+  text-align: center;
+}
+
+#home .home-text h1 {
+  font-family: Poppins-500;
+  color: #fff;
+  font-size: 75px;
+  margin-bottom: 30px;
+}
+
+#home .home-text p {
+  font-family: Poppins-500;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 40px;
+  line-height: 28px;
+}
+
+#home .home-text .box {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#home .home-text .box a {
+  font-size: 18;
+  color: #ffffff;
+  border-color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  font-weight: 500;
+  padding: 10px 21px 15px 26px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#home .home-text .box a:hover {
+  background-color: #282828;
+  border: 1px solid #282828;
+}
+
+#home .home-text .box i {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+#home .home-text .hrall {
+  margin-top: 7rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#home .home-text .hrall hr {
+  margin: 0 10px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  height: 1px;
+  width: 30px;
+}
+
+#home .home-text .hrall hr:hover {
+  border: 2px solid #fff;
+  background-color: #fff;
+  height: 3px;
+}
+
+#phone-header {
+  display: none;
+  padding: 20px 0;
+}
+
+#phone-header .right {
+  text-align: center;
+}
+
+#phone-header img {
+  width: 30%;
+}
+
+@media (max-width: 576px) {
+  #phone-header {
+    display: block;
+  }
+  #header {
+    display: none;
+  }
+  #home .home-text h1 {
+    font-size: 45px;
+  }
+}
+
+#week {
+  margin: 9rem 0;
+}
+
+#week .week-text h2 {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  color: #282828;
+}
+
+#week .week-text p {
+  margin-top: 20px;
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  color: #737373;
+}
+
+#week .all {
+  margin-top: 80px;
+}
+
+#week .all .box:hover .top a {
+  left: -30%;
+}
+
+#week .all .box:hover .top a:hover {
+  left: 0%;
+}
+
+#week .all .box .top {
+  overflow: hidden;
+  position: relative;
+}
+
+#week .all .box .top img {
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+}
+
+#week .all .box .top:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#week .all .box .top span {
+  z-index: 1;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+#week .all .box .top a {
+  position: absolute;
+  text-decoration: none;
+  padding: 10px 25px;
+  background-color: #282828;
+  color: #fff;
+  z-index: 2;
+  left: -50%;
+  bottom: 10%;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#week .all .box .top a i {
+  margin-left: 20px;
+}
+
+#week .all .box .bottom {
+  text-align: center;
+  padding: 20px 0;
+}
+
+#week .all .box .bottom a {
+  text-decoration: none;
+  color: #282828;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#week .all .box .bottom p {
+  color: #282828;
+  font-size: 15px;
+}
+
+#collection {
+  padding: 12rem 0;
+  background-image: url(https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h1-parallax-img-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#collection .collection-text {
+  text-align: center;
+}
+
+#collection .collection-text h2 {
+  font-family: Poppins-500;
+  color: #fff;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+#collection .collection-text p {
+  font-family: Poppins-500;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 40px;
+  line-height: 28px;
+}
+
+#collection .collection-text .box {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#collection .collection-text .box a {
+  font-size: 18;
+  color: #ffffff;
+  border-color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  font-weight: 500;
+  padding: 10px 21px 17px 26px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#collection .collection-text .box a:hover {
+  background-color: #282828;
+  border: 1px solid #282828;
+}
+
+#collection .collection-text .box i {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+#collection1 {
+  background-image: url(https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h1-parallax-img-2.jpg);
+  padding: 12rem 0;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+#collection1 a i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #fff;
+  border-radius: 100%;
+  border: 1px solid #939393;
+  background-color: #939393;
+  padding: 18px 20px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#collection1 a i:hover {
+  background-color: #282828;
+  border: 1px solid #282828;
+}
+
+#animation {
+  padding: 14rem 0;
+}
+
+#animation .all {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#animation .all .left {
+  text-align: center;
+}
+
+#animation .all .left h2 {
+  font-family: Poppins-500;
+  color: #282828;
+  font-size: 75px;
+  margin-bottom: 30px;
+}
+
+#animation .all .left p {
+  font-family: Poppins-500;
+  color: #737373;
+  font-size: 20px;
+  margin-bottom: 40px;
+  line-height: 28px;
+}
+
+#animation .all .left a {
+  font-size: 18;
+  color: #282828;
+  border-color: transparent;
+  text-decoration: none;
+  border: 1px solid #282828;
+  font-weight: 500;
+  padding: 10px 21px 15px 26px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#animation .all .left a:hover {
+  color: #fff;
+  background-color: #282828;
+  border: 1px solid #282828;
+}
+
+#animation .all .right {
+  position: relative;
+}
+
+#animation .all .right .img1 {
+  position: absolute;
+  -webkit-animation: photo1 5s linear infinite;
+          animation: photo1 5s linear infinite;
+}
+
+#animation .all .right .img2 {
+  position: absolute;
+  top: 13rem;
+  width: 35%;
+  right: -3rem;
+  -webkit-animation: photo2 5s linear infinite;
+          animation: photo2 5s linear infinite;
+}
+
+@-webkit-keyframes photo1 {
+  0% {
+    margin-top: -15rem;
+  }
+  50% {
+    margin-top: -17rem;
+  }
+  100% {
+    margin-top: -15rem;
+  }
+}
+
+@keyframes photo1 {
+  0% {
+    margin-top: -15rem;
+  }
+  50% {
+    margin-top: -17rem;
+  }
+  100% {
+    margin-top: -15rem;
+  }
+}
+
+@-webkit-keyframes photo2 {
+  0% {
+    margin-top: 4rem;
+  }
+  50% {
+    margin-top: 5rem;
+  }
+  100% {
+    margin-top: 4rem;
+  }
+}
+
+@keyframes photo2 {
+  0% {
+    margin-top: 4rem;
+  }
+  50% {
+    margin-top: 5rem;
+  }
+  100% {
+    margin-top: 4rem;
+  }
+}
+
+#animation2 {
+  padding: 14rem;
+}
+
+#animation2 .all {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#animation2 .all .left {
+  margin-left: 2rem;
+  text-align: center;
+}
+
+#animation2 .all .left h2 {
+  font-family: Poppins-500;
+  color: #282828;
+  font-size: 75px;
+  margin-bottom: 30px;
+}
+
+#animation2 .all .left p {
+  font-family: Poppins-500;
+  color: #737373;
+  font-size: 20px;
+  margin-bottom: 40px;
+  line-height: 28px;
+}
+
+#animation2 .all .left a {
+  font-size: 18;
+  color: #282828;
+  border-color: transparent;
+  text-decoration: none;
+  border: 1px solid #282828;
+  font-weight: 500;
+  padding: 10px 21px 15px 26px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#animation2 .all .left a:hover {
+  color: #fff;
+  background-color: #282828;
+  border: 1px solid #282828;
+}
+
+#animation2 .all .right {
+  position: relative;
+}
+
+#animation2 .all .right .img3 {
+  position: absolute;
+  width: 90%;
+  -webkit-animation: photo3 5s linear infinite;
+          animation: photo3 5s linear infinite;
+  margin-top: -16rem;
+  margin-left: -6rem;
+}
+
+#animation2 .all .right .img4 {
+  width: 65%;
+  position: absolute;
+  margin-left: 10rem;
+  margin-top: 1rem;
+  -webkit-animation: photo4 5s linear infinite;
+          animation: photo4 5s linear infinite;
+}
+
+@-webkit-keyframes photo3 {
+  0% {
+    margin-top: -14rem;
+  }
+  50% {
+    margin-top: -16rem;
+  }
+  100% {
+    margin-top: -14rem;
+  }
+}
+
+@keyframes photo3 {
+  0% {
+    margin-top: -14rem;
+  }
+  50% {
+    margin-top: -16rem;
+  }
+  100% {
+    margin-top: -14rem;
+  }
+}
+
+@-webkit-keyframes photo4 {
+  0% {
+    margin-top: 1rem;
+  }
+  50% {
+    margin-top: 3rem;
+  }
+  100% {
+    margin-top: 1rem;
+  }
+}
+
+@keyframes photo4 {
+  0% {
+    margin-top: 1rem;
+  }
+  50% {
+    margin-top: 3rem;
+  }
+  100% {
+    margin-top: 1rem;
+  }
+}
+
+#animation3 {
+  padding: 14rem;
+  overflow: hidden;
+}
+
+#animation3 .all {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#animation3 .all .left {
+  text-align: center;
+}
+
+#animation3 .all .left h2 {
+  font-family: Poppins-500;
+  color: #282828;
+  font-size: 75px;
+  margin-bottom: 30px;
+}
+
+#animation3 .all .left p {
+  font-family: Poppins-500;
+  color: #737373;
+  font-size: 20px;
+  margin-bottom: 40px;
+  line-height: 28px;
+}
+
+#animation3 .all .left a {
+  font-size: 18;
+  color: #282828;
+  border-color: transparent;
+  text-decoration: none;
+  border: 1px solid #282828;
+  font-weight: 500;
+  padding: 10px 21px 15px 26px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#animation3 .all .left a:hover {
+  color: #fff;
+  background-color: #282828;
+  border: 1px solid #282828;
+}
+
+#animation3 .all .right {
+  position: relative;
+}
+
+#animation3 .all .right .img1 {
+  position: absolute;
+  margin-left: 20rem;
+  margin-top: -16rem;
+  -webkit-animation: photo1 5s linear infinite;
+          animation: photo1 5s linear infinite;
+}
+
+#animation3 .all .right .img2 {
+  width: 100%;
+  position: absolute;
+  margin-left: 0;
+  margin-top: -8rem;
+  -webkit-animation: photo2 5s linear infinite;
+          animation: photo2 5s linear infinite;
+}
+
+@keyframes photo1 {
+  0% {
+    margin-top: -15rem;
+  }
+  50% {
+    margin-top: -17rem;
+  }
+  100% {
+    margin-top: -15rem;
+  }
+}
+
+@keyframes photo2 {
+  0% {
+    margin-top: -9rem;
+  }
+  50% {
+    margin-top: -7rem;
+  }
+  100% {
+    margin-top: -9rem;
+  }
+}
+
+#order {
+  margin-top: 160px;
+  background-color: #ECF2F8;
+  padding: 4.5rem 0;
+}
+
+#order .order-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#order .order-text h2 {
+  color: #282828;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+#order .order-text a {
+  font-size: 18;
+  color: #282828;
+  border-color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #282828;
+  font-weight: 500;
+  padding: 10px 21px 17px 26px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#order .order-text a:hover {
+  background-color: #282828;
+  border: 1px solid #282828;
+  color: #ffffff;
+}
+
+#order .order-text i {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+#information {
+  padding: 6rem 0;
+}
+
+#information .box {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#information .box:hover i, #information .box:hover a {
+  color: #939393;
+}
+
+#information .box i {
+  font-size: 30px;
+  color: #282828;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#information .box a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #282828;
+  font-size: 23px;
+  font-weight: 300;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#gallery {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+#gallery .all {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#gallery .all .box .top {
+  overflow: hidden;
+}
+
+#gallery .all .box .top:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#gallery .all .box .top img {
+  -webkit-transition: 1.6s;
+  transition: 1.6s;
+}
+
+#gallery .all .text-center {
+  margin-top: 40px;
+}
+
+#gallery .all .text-center a {
+  font-size: 16px;
+  color: #282828;
+  text-decoration: none;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#gallery .all .text-center a:hover {
+  color: #b4b4b4;
+}
+
+#gallery .all .text-center span {
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+#gallery .all .text-center p {
+  font-size: 20px;
+  color: #282828;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#gallery .all .text-center p:hover {
+  color: #939393;
+}
+
+#gallery .all .text-center .mix:hover span {
+  display: none;
+}
+
+#gallery .all .text-center .mix:hover a {
+  border-bottom: 1px solid transparent;
+}
+
+#gallery .all .text-center .mix span {
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#gallery .all .text-center .mix a {
+  text-decoration: none;
+  border-bottom: 1px solid #282828;
+}
+
+#about {
+  padding: 5rem 0;
+  margin-bottom: 40px;
+  background-color: #ECF2F8;
+}
+
+#about .about-text {
+  position: relative;
+}
+
+#about .about-text h1 {
+  display: inline;
+  font-size: 96px;
+  color: #282828;
+}
+
+#about .about-text p {
+  font-size: 18px;
+  color: #737373;
+}
+
+#about .about-text h3 {
+  font-size: 20px;
+  color: #282828;
+}
+
+#about .about-text h4 {
+  font-size: 13px;
+  color: #282828;
+}
+
+#about .about-text .i1 i {
+  font-size: 25px;
+  position: absolute;
+  top: 8.5rem;
+  left: 2rem;
+}
+
+#about .about-text .i2 i {
+  font-size: 25px;
+  position: absolute;
+  top: 8.5rem;
+  right: 2rem;
+}
+
+#brend {
+  padding: 3rem 0;
+}
+
+#brend .all .box {
+  overflow: hidden;
+}
+
+#brend .all .box:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#brend .all .box img {
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#footer {
+  margin-top: 2rem;
+  padding: 2rem 0;
+  background-color: #282828;
+}
+
+#footer .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#footer .all .left {
+  margin-left: 30px;
+}
+
+#footer .all .left a {
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  color: #fff;
+  margin-left: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#footer .all .right span, #footer .all .right a {
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+  color: #bdbdbd;
+  font-size: 15px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
